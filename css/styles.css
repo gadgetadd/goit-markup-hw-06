@@ -204,7 +204,8 @@ ul {
 }
 
 .main-button {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   padding: 10px 32px;
   border-radius: 4px;
   border: none;
@@ -517,7 +518,7 @@ ul {
 .footer-form input {
   width: 358px;
   height: 50px;
-  padding: 15px 16px;
+  padding: 14px 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -536,7 +537,7 @@ ul {
 }
 
 .footer-button {
-  display: inline-flex;
+  display: flex;
   gap: 10px;
   margin-left: 12px;
 }
@@ -644,7 +645,7 @@ ul {
 
 .form-input {
   width: 100%;
-  padding: 12px 12px 12px 42px;
+  padding: 11px 11px 11px 41px;
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -674,17 +675,12 @@ ul {
 
 .form-input[name='comment'] {
   height: 120px;
-  padding: 12px 16px;
+  padding: 11px 15px;
   resize: none;
 }
 
 .checkbox-field {
   margin-bottom: 30px;
-}
-
-.form-button {
-  display: block;
-  margin: 0 auto;
 }
 
 .check {
@@ -741,6 +737,11 @@ ul {
   color: var(--accent-text-color);
 }
 
+.form-button {
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
 /* Портфоліо */
 .buttons {
   display: flex;
@@ -752,7 +753,7 @@ ul {
 .button {
   display: inline-block;
   padding: 6px 22px;
-  border-color: transparent;
+  border: none;
   border-radius: 4px;
 
   color: var(--secondary-text-color);
